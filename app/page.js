@@ -1,5 +1,6 @@
 // pages/index.js
 'use client'
+import First from './component/First';
 // import { useState } from 'react';
 
 // import SentimentChart from './component/SentimentChart';
@@ -9,11 +10,15 @@ const Home = () => {
   
 
   return (
-    <div>
-     <Navbar/>
-       
-    
+    <main className="flex min-h-screen flex-col bg-[#040613] "> 
+
+    <Navbar/>
+    <div className= "container mt-20 mx-auto px-12 py-4">
+   <First/>
     </div>
+    
+    {/* <Footer/> */}
+         </main>
   );
 };
 
