@@ -6,6 +6,7 @@ import First from './component/First';
 // import SentimentChart from './component/SentimentChart';
 // import SentimentForm from './component/SentimentForm';
 import Navbar from './component/Navbar';
+import Second from './component/Second';
 const Home = () => {
   
 
@@ -15,6 +16,7 @@ const Home = () => {
     <Navbar/>
     <div className= "container mt-20 mx-auto px-12 py-4">
    <First/>
+   <Second/>
     </div>
     
     {/* <Footer/> */}
