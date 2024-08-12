@@ -7,6 +7,7 @@ import First from './component/First';
 // import SentimentForm from './component/SentimentForm';
 import Navbar from './component/Navbar';
 import Second from './component/Second';
+import Third from './component/Third';
 const Home = () => {
   
 
@@ -17,6 +18,7 @@ const Home = () => {
     <div className= "container mt-20 mx-auto px-12 py-4">
    <First/>
    <Second/>
+   <Third/>
     </div>
     
     {/* <Footer/> */}
