@@ -1,6 +1,7 @@
 // pages/index.js
 'use client'
 import First from './component/First';
+import Fourth from './component/Fourth';
 // import { useState } from 'react';
 
 // import SentimentChart from './component/SentimentChart';
@@ -19,6 +20,7 @@ const Home = () => {
    <First/>
    <Second/>
    <Third/>
+   <Fourth/>
     </div>
     
     {/* <Footer/> */}
