@@ -17,11 +17,11 @@ const navLinks =[
    
     {
         title: "Sign Up",
-        path: "#signup"
+        path: "/signup"
     },
     {
         title: "Sign In",
-        path: "#login"
+        path: "/login"
     }
 ]
 

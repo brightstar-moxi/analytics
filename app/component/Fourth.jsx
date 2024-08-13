@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Image from "next/image";
 // import Image1 from '/public/pic1.png'
-import Image2 from '/public/OIP.png';
+import Image2 from '/public/R.png';
 
 
 
